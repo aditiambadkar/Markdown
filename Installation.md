@@ -8,6 +8,8 @@
 
 ### 3. [Starting USBGuard](#starting-usbguard)
 
+### 4. [References](#references)
+
 ## About
 
 The [USBGuard](https://usbguard.github.io/) software framework helps to protect your computer against rogue USB devices (a.k.a. [BadUSB](https://opensource.srlabs.de/projects/badusb)) by implementing basic whitelisting and blacklisting capabilities based on device attributes.
@@ -63,3 +65,10 @@ $ sudo systemctl status usbguard
    CGroup: /system.slice/usbguard.service
            └─26139 /usr/sbin/usbguard-daemon -f -s -c /etc/usbguard/usbguard-daemon.conf
 ```
+
+## References
+
+1. [https://usbguard.github.io/]
+2. [https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/security_hardening/protecting-systems-against-intrusive-usb-devices_security-hardening]
+3. [https://github.com/USBGuard/usbguard]
+4. [https://github.com/USBGuard/usbguard/releases]
