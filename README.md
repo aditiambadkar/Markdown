@@ -10,19 +10,18 @@
 
 ## About
 
----
-
 The [USBGuard](https://usbguard.github.io/) software framework helps to protect your computer against rogue USB devices (a.k.a. [BadUSB](https://opensource.srlabs.de/projects/badusb)) by implementing basic whitelisting and blacklisting capabilities based on device attributes.
 
 ## Installation
 
----
 
 1. Download the release tarball [usbguard-0.7.2.tar.gz](https://github.com/USBGuard/usbguard/releases/tag/usbguard-0.7.2). This is the compatible version for Ubuntu 18.04.
 2. Extract the tarball:
+
 `$ tar -xf usbguard-0.7.2.tar.gz`
 
 3. Install the dependencies:
+
 `$ sudo apt install ibsodium-dev protobuf-compiler libprotobuf-dev libdbus-1-dev libdbus-glib-1-dev libpolkit-gobject-1-dev asciidoctor`
 
 4. Configure USBGuard:
