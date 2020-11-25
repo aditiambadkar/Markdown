@@ -68,7 +68,7 @@ $ sudo systemctl status usbguard
 
 ## References
 
-1. [https://usbguard.github.io/]
-2. [https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/security_hardening/protecting-systems-against-intrusive-usb-devices_security-hardening]
-3. [https://github.com/USBGuard/usbguard]
-4. [https://github.com/USBGuard/usbguard/releases]
+1. https://usbguard.github.io/
+2. https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/security_hardening/protecting-systems-against-intrusive-usb-devices_security-hardening
+3. https://github.com/USBGuard/usbguard
+4. https://github.com/USBGuard/usbguard/releases
