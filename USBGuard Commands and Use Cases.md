@@ -67,3 +67,8 @@ $ sudo usbguard watch
  device_rule=block id 17ef:608d serial "" name "Lenovo USB Optical Mouse" hash "klpDZuv1jhWGNqZLOl+KXF+75Ir3PfBm6D6ncjoLRBU=" parent-hash "lUN32sIeMBBlD8Pd82mxu95iCTw8oKlT8iZDeg628/o=" via-port "2-3" with-interface 03:01:02
  rule_id=4294967294
 ```
+## USBGuard Manual References
+1. [usbguard(1)](http://manpages.ubuntu.com/manpages/bionic/man1/usbguard.1.html)
+2. [usbguard-daemon(8)](http://manpages.ubuntu.com/manpages/bionic/man8/usbguard-daemon.8.html)
+3. [usbguard-daemon.conf(5)](http://manpages.ubuntu.com/manpages/bionic/man5/usbguard-daemon.conf.5.html)
+4. [usbguard-rules.conf(5)](http://manpages.ubuntu.com/manpages/bionic/man5/usbguard-rules.conf.5.html)
